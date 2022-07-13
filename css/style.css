@@ -19,7 +19,19 @@ main {
 
 .section {
     display: flex;
-    background-color: red;
+
     flex-direction: row;
     flex-wrap: wrap;
+    flex: 1;
+
+}
+
+.article {
+    display: flex;
+    flex: 1;
+
+}
+
+.articleHover {
+    background: black;
 }
