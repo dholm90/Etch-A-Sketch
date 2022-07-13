@@ -13,12 +13,10 @@ function CreateGrid(squares) {
             article.addEventListener('mouseOver', () => {
                 article.classList.add('articleHover');
             });
-
         }
         main.appendChild(section);
     }
 }
-
 
 CreateGrid(144);
 
